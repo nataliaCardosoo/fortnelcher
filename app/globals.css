@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply bg-navy-950 text-steel-100 font-body antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.light body {
+  @apply bg-steel-100 text-navy-900;
+}
+
+::selection {
+  background-color: rgba(47, 111, 224, 0.35);
+}
+
+/* Foco visível para navegação por teclado (acessibilidade) */
+:focus-visible {
+  outline: 2px solid #6fa8ff;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+
+.eyebrow {
+  @apply font-mono text-xs uppercase tracking-[0.25em] text-brand-blue-light;
+}
+
+.section-heading {
+  @apply font-display text-3xl sm:text-4xl md:text-5xl font-bold leading-[1.1] tracking-tight text-white;
+}
+
+html.light .section-heading {
+  @apply text-navy-900;
+}
+
+.rib-divider {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(47, 111, 224, 0.35) 0px,
+    rgba(47, 111, 224, 0.35) 2px,
+    transparent 2px,
+    transparent 14px
+  );
+  height: 3px;
+}
+
+.card-surface {
+  @apply rounded-xl border border-navy-700 bg-navy-900/60 backdrop-blur-sm;
+}
+
+html.light .card-surface {
+  @apply border-steel-300 bg-white/80;
+}
+
+.icon-negative {
+  @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-brand-blue text-white shadow-brand-glow;
+}
+
+/* Ajustes de contraste para o conteúdo das páginas em modo claro.
+   Header e Footer permanecem sempre na paleta escura da marca. */
+html.light main .text-white {
+  color: #101828;
+}
+html.light main .text-steel-300 {
+  color: #3d4759;
+}
+html.light main .text-steel-400 {
+  color: #4d5872;
+}
+html.light main .border-navy-700 {
+  border-color: #d7dce6;
+}
+html.light main .bg-navy-900\/60 {
+  background-color: rgba(255, 255, 255, 0.75);
+}

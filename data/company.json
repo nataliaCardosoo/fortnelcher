@@ -1,0 +1,115 @@
+{
+  "nome": "Fortnelcher",
+  "razaoSocial": "Fortnelcher Engenharia Comércio Manutenção e Instalação de Equipamentos LTDA",
+  "cnpj": "36.692.659/0001-01",
+  "slogan": "Sua doca sempre no nível certo",
+  "descricaoCurta": "Manutenção e instalação de Niveladoras de Doca (Móvel, Embutir e Frontal) e seus respectivos acessórios com atendimento em toda a Região Sudeste.",
+  "descricaoLonga": "A Fortnelcher é uma empresa de engenharia especializada em manutenção e instalação de Niveladoras de Doca (Móvel, Embutir e Frontal) e seus respectivos acessórios (Guarda Corpo para Niveladora, Calços de Roda e Batedores). Nossa base estratégica fica em Itapeva - MG, com estrutura técnica para atendimento em toda a Região Sudeste.",
+  "contato": {
+    "email": "fortnelcher@gmail.com",
+    "telefones": [
+      { "label": "Comercial 1", "numero": "(35) 99765-3880", "whatsapp": "5535997653880" },
+      { "label": "Comercial 2", "numero": "(35) 99707-3115", "whatsapp": "5535997073115" }
+    ],
+    "horario": {
+      "dias": "Segunda a sexta-feira",
+      "abertura": "08:00",
+      "fechamento": "18:00",
+      "textoCompleto": "Segunda a sexta-feira, das 8h às 18h"
+    }
+  },
+  "endereco": {
+    "cidade": "Itapeva",
+    "estado": "MG",
+    "estadoNome": "Minas Gerais",
+    "regiaoAtendida": "Base em Itapeva - MG, com atendimento técnico em toda a Região Sudeste",
+    "textoCompleto": "Itapeva - MG"
+  },
+  "redesSociais": {
+    "instagram": "https://www.instagram.com/fortnelcher?igsh=MTJxbmszd2w3M3pwYg=="
+  },
+  "servicos": [
+    {
+      "id": "manutencao-niveladoras",
+      "titulo": "Manutenção de Niveladoras de Doca",
+      "resumo": "Manutenção preventiva e corretiva de niveladoras de embutir, frontal e móvel, mantendo sua operação de carga e descarga sem paradas inesperadas.",
+      "descricao": "Realizamos manutenção preventiva programada e manutenção corretiva emergencial em niveladoras de doca de embutir, frontal e móvel. Revisamos sistema hidráulico, cilindros, óleo e peças em geral (mangueiras, válvulas, solenóides e componentes elétricos), mediante avaliação e necessidade, evitando paradas não planejadas nas operações de carga e descarga.",
+      "itens": [
+        "Manutenção preventiva programada",
+        "Manutenção corretiva emergencial",
+        "Revisão do sistema hidráulico e cilindros",
+        "Substituição de óleo e peças em geral (mangueiras, válvulas, solenóides e componentes elétricos), mediante avaliação e necessidade",
+        "Ajuste e lubrificação da pestana articulada",
+        "Diagnóstico do painel elétrico e comandos"
+      ]
+    },
+    {
+      "id": "instalacao-niveladoras",
+      "titulo": "Instalação de Niveladoras de Doca",
+      "resumo": "Instalação completa de niveladoras de doca (de embutir, frontal e móvel), com serviço especializado e consultoria prévia, se necessário.",
+      "descricao": "Executamos a instalação de niveladoras de doca de embutir, frontal e móvel em galpões, centros de distribuição e indústrias, incluindo fixação estrutural, ligação hidráulica e elétrica, e testes de funcionamento com devidos ajustes após a instalação.",
+      "itens": [
+        "Serviço especializado com consultoria prévia, se necessário, evitando impactos na execução da instalação",
+        "Instalação de niveladoras de embutir, frontal e móvel",
+        "Fixação estrutural na doca de concreto",
+        "Ligação e teste do sistema hidráulico e elétrico",
+        "Testes de funcionamento com devidos ajustes após a instalação",
+        "Entrega técnica com equipamento operante"
+      ]
+    },
+    {
+      "id": "manutencao-equipamentos",
+      "titulo": "Manutenção de Equipamentos e Acessórios",
+      "resumo": "Manutenção preventiva e corretiva de acessórios complementares das Niveladoras de Docas.",
+      "descricao": "Além das niveladoras, cuidamos da manutenção de acessórios complementares das Niveladoras de Docas, como guarda corpo para Niveladoras de Doca, calços de roda e batedores.",
+      "itens": [
+        "Manutenção de guarda corpo para Niveladoras de Doca",
+        "Manutenção e verificação de calços de roda",
+        "Manutenção e substituição de batedores de doca"
+      ]
+    },
+    {
+      "id": "instalacao-equipamentos",
+      "titulo": "Instalação de Equipamentos e Acessórios",
+      "resumo": "Instalação técnica de acessórios complementares das Niveladoras de Docas.",
+      "descricao": "Instalamos acessórios complementares das Niveladoras de Docas, garantindo que toda a área de carga e descarga opere com máxima segurança e padronização.",
+      "itens": [
+        "Instalação de guarda corpo para Niveladoras de Doca",
+        "Instalação e fixação de calços de roda",
+        "Instalação de batedores de proteção de doca"
+      ]
+    }
+  ],
+  "diferenciais": [
+    {
+      "titulo": "Atendimento na Região Sudeste",
+      "descricao": "Base estratégica em Itapeva - MG, com equipe própria preparada para atender galpões, indústrias e centros de distribuição em toda a Região Sudeste."
+    },
+    {
+      "titulo": "Resposta rápida",
+      "descricao": "Chamados de manutenção corretiva priorizados para reduzir o tempo de doca parada."
+    },
+    {
+      "titulo": "Instalação técnica completa",
+      "descricao": "Serviço especializado com consultoria prévia, se necessário, evitando impactos na execução da instalação e garantindo o correto funcionamento com os devidos ajustes."
+    },
+    {
+      "titulo": "Peças e componentes de qualidade",
+      "descricao": "Uso de óleo e peças em geral (mangueiras, válvulas, solenóides e componentes elétricos), mediante avaliação e necessidade."
+    }
+  ],
+  "seo": {
+    "tituloPadrao": "Fortnelcher | Manutenção e Instalação de Niveladoras de Doca no Sudeste",
+    "descricaoPadrao": "Especialista em manutenção e instalação de Niveladoras de Doca (Móvel, Embutir e Frontal) e acessórios na Região Sudeste. Atendimento técnico especializado.",
+    "palavrasChave": [
+      "niveladora de doca",
+      "manutenção de niveladora de doca",
+      "instalação de niveladora de doca",
+      "niveladora de embutir frontal e móvel",
+      "guarda corpo para niveladora",
+      "calços de roda e batedores",
+      "niveladora de doca Sudeste",
+      "Fortnelcher Engenharia"
+    ]
+  }
+}
