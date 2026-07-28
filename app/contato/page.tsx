@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Fale com a Fortnelcher: telefone, WhatsApp, e-mail e horário de atendimento para manutenção e instalação de niveladoras de doca em Minas Gerais.",
+    "Fale com a Fortnelcher: telefone, WhatsApp, e-mail e horário de atendimento para manutenção e instalação de niveladoras de doca na Região Sudeste.",
   alternates: { canonical: "/contato" },
 };
 

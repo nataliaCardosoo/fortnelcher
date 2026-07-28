@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Quem Somos",
   description:
-    "Conheça a Fortnelcher, empresa de engenharia especializada em manutenção e instalação de niveladoras de doca em Itapeva e em toda a região de Minas Gerais.",
+    "Conheça a Fortnelcher, empresa de engenharia especializada em manutenção e instalação de Niveladoras de Doca (Móvel, Embutir e Frontal) e acessórios na Região Sudeste.",
   alternates: { canonical: "/quem-somos" },
 };
 
@@ -24,7 +24,7 @@ export default function QuemSomosPage() {
           <FadeIn>
             <p className="eyebrow">Quem somos</p>
             <h1 className="section-heading mt-3 max-w-3xl">
-              Engenharia dedicada a manter cada doca de {company.endereco.estadoNome} operando.
+              Engenharia dedicada a manter cada doca da Região Sudeste operando.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-steel-300 sm:text-lg">
               {company.descricaoLonga}
@@ -40,23 +40,19 @@ export default function QuemSomosPage() {
               <p>
                 A <strong className="text-white">{company.razaoSocial}</strong> nasceu para
                 resolver um problema muito concreto: docas de carga paradas custam tempo,
-                dinheiro e segurança. Atuamos diretamente em Itapeva e atendemos toda a
-                região de {company.endereco.estadoNome}, oferecendo manutenção preventiva,
-                manutenção corretiva e instalação completa de niveladoras de doca e dos
-                equipamentos que compõem a área de carga e descarga.
+                dinheiro e segurança. {company.endereco.regiaoAtendida}, oferecendo manutenção preventiva,
+                manutenção corretiva e instalação completa de Niveladoras de Doca (Móvel, Embutir e Frontal)
+                e seus respectivos acessórios (Guarda Corpo para Niveladora, Calços de Roda e Batedores).
               </p>
               <p>
-                Nosso trabalho começa antes do primeiro parafuso: entendemos o fluxo de
-                carga e descarga do cliente, o tipo de veículo atendido e a rotina do
-                galpão, para propor a solução técnica certa - seja uma manutenção
-                programada que evita paradas inesperadas, seja a instalação de uma
-                niveladora frontal ou embutida do zero.
+                Nosso trabalho começa antes do primeiro parafuso: realizamos serviço especializado com
+                consultoria prévia, se necessário, evitando impactos na execução da instalação e
+                entendendo o fluxo de carga e descarga do cliente para propor a solução técnica certa.
               </p>
               <p>
-                Trabalhamos com equipe própria, testes de carga antes da entrega e
-                acompanhamento técnico contínuo, para que cada equipamento instalado ou
-                revisado pela Fortnelcher opere com segurança e previsibilidade,
-                operação após operação.
+                Trabalhamos com equipe própria, testes de funcionamento com os devidos ajustes após
+                a instalação e acompanhamento técnico contínuo, para que cada equipamento instalado ou
+                revisado pela Fortnelcher opere com segurança e previsibilidade, operação após operação.
               </p>
             </div>
           </FadeIn>
@@ -78,7 +74,7 @@ export default function QuemSomosPage() {
               </span>
               <h2 className="mt-5 font-display text-lg font-semibold text-white">Missão</h2>
               <p className="mt-2 text-sm leading-relaxed text-steel-400">
-                Manter as docas de carga da região funcionando com segurança, reduzindo
+                Manter as Niveladoras de Doca da região funcionando com segurança, reduzindo
                 paradas não planejadas e riscos de acidente na carga e descarga.
               </p>
             </div>
@@ -90,8 +86,8 @@ export default function QuemSomosPage() {
               </span>
               <h2 className="mt-5 font-display text-lg font-semibold text-white">Visão</h2>
               <p className="mt-2 text-sm leading-relaxed text-steel-400">
-                Ser referência em manutenção e instalação de niveladoras de doca em Minas
-                Gerais, reconhecida pela agilidade no atendimento técnico.
+                Ser referência em manutenção e instalação de Niveladoras de Doca na Região
+                Sudeste, reconhecida pela agilidade e precisão no atendimento técnico.
               </p>
             </div>
           </FadeIn>
@@ -102,7 +98,7 @@ export default function QuemSomosPage() {
               </span>
               <h2 className="mt-5 font-display text-lg font-semibold text-white">Valores</h2>
               <p className="mt-2 text-sm leading-relaxed text-steel-400">
-                Segurança, precisão técnica e compromisso com o prazo - a doca do
+                Segurança, precisão técnica e compromisso com o prazo — a doca do
                 cliente parada é sempre tratada com prioridade.
               </p>
             </div>
@@ -117,7 +113,7 @@ export default function QuemSomosPage() {
               Quer conhecer melhor o nosso trabalho?
             </h2>
             <p className="mt-2 max-w-lg text-sm text-steel-400 sm:text-base">
-              Fale com a equipe Fortnelcher e conte como está a doca da sua operação hoje.
+              Fale com a equipe Fortnelcher e conte como está a Niveladora de Doca da sua operação hoje.
             </p>
           </div>
           <a

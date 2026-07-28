@@ -8,7 +8,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Serviços",
   description:
-    "Manutenção preventiva e corretiva, e instalação completa de niveladoras de doca em Itapeva e em toda a região de Minas Gerais.",
+    "Manutenção preventiva e corretiva, e instalação completa de Niveladoras de Doca (Móvel, Embutir e Frontal) e acessórios na Região Sudeste.",
   alternates: { canonical: "/servicos" },
 };
 
@@ -23,11 +23,10 @@ export default function ServicosPage() {
           <FadeIn>
             <p className="eyebrow">Serviços</p>
             <h1 className="section-heading mt-3 max-w-3xl">
-              Manutenção e instalação de niveladoras de doca em {company.endereco.estadoNome}.
+              Manutenção e instalação de Niveladoras de Doca na Região Sudeste.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-steel-300 sm:text-lg">
-              Atendemos {company.endereco.regiaoAtendida.toLowerCase()} com equipe técnica
-              própria, testes de carga e acompanhamento até a entrega do equipamento operando.
+              {company.endereco.regiaoAtendida}, com equipe técnica própria, serviço especializado com consultoria prévia, se necessário, e testes de funcionamento com os devidos ajustes após a instalação.
             </p>
           </FadeIn>
         </div>
