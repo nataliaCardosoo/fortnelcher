@@ -60,7 +60,7 @@ export default function HomePage() {
               </div>
               <div>
                 <dt className="eyebrow">Especialidade</dt>
-                <dd className="mt-1 font-display text-lg font-semibold text-white">Docas</dd>
+                <dd className="mt-1 font-display text-lg font-semibold text-white">Niveladoras de Doca</dd>
               </div>
             </dl>
           </FadeIn>
