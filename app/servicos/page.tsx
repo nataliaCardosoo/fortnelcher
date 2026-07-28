@@ -26,7 +26,7 @@ export default function ServicosPage() {
               Manutenção e instalação de Niveladoras de Doca na Região Sudeste.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-steel-300 sm:text-lg">
-              {company.endereco.regiaoAtendida}, com equipe técnica própria, serviço especializado com consultoria prévia, se necessário, e testes de funcionamento com os devidos ajustes após a instalação.
+              Atendemos em toda a Região Sudeste com equipe técnica própria, serviço especializado com consultoria prévia, se necessário, e testes de funcionamento com os devidos ajustes após a instalação.
             </p>
           </FadeIn>
         </div>

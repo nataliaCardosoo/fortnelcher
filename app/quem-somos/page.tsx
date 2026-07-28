@@ -40,7 +40,7 @@ export default function QuemSomosPage() {
               <p>
                 A <strong className="text-white">{company.razaoSocial}</strong> nasceu para
                 resolver um problema muito concreto: docas de carga paradas custam tempo,
-                dinheiro e segurança. {company.endereco.regiaoAtendida}, oferecendo manutenção preventiva,
+                dinheiro e segurança. Nossa base fica localizada em Itapeva - MG, com estrutura técnica para atendimento em toda a Região Sudeste, oferecendo manutenção preventiva,
                 manutenção corretiva e instalação completa de Niveladoras de Doca (Móvel, Embutir e Frontal)
                 e seus respectivos acessórios (Guarda Corpo para Niveladora, Calços de Roda e Batedores).
               </p>
