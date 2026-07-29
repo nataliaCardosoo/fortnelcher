@@ -21,7 +21,7 @@ export default function ContatoPage() {
       <div className="container-page grid gap-14 lg:grid-cols-[0.95fr,1.05fr]">
         <FadeIn>
           <p className="eyebrow">Contato</p>
-          <h1 className="section-heading mt-3">Vamos falar sobre a sua doca.</h1>
+          <h1 className="section-heading mt-3">Vamos falar sobre niveladoras de docas.</h1>
           <p className="mt-5 max-w-md text-sm leading-relaxed text-steel-400 sm:text-base">
             Preencha o formulário ou fale direto pelos canais abaixo. Respondemos em
             horário comercial, de segunda a sexta-feira.

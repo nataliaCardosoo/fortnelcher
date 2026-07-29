@@ -26,7 +26,7 @@ export default function ServicosPage() {
               Manutenção e instalação de Niveladoras de Doca na Região Sudeste.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-steel-300 sm:text-lg">
-              Atendemos em toda a Região Sudeste com equipe técnica própria, serviço especializado com consultoria prévia, se necessário, e testes de funcionamento com os devidos ajustes após a instalação.
+              Atendemos em boa parte da Região Sudeste com equipe técnica própria, serviço especializado com consultoria prévia, se necessário, e testes de funcionamento com os devidos ajustes após a instalação.
             </p>
           </FadeIn>
         </div>
@@ -79,7 +79,7 @@ export default function ServicosPage() {
         <div className="container-page flex flex-col items-start justify-between gap-6 py-16 sm:flex-row sm:items-center">
           <div>
             <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">
-              Não sabe qual serviço sua doca precisa?
+              Não sabe qual serviço você precisa?
             </h2>
             <p className="mt-2 max-w-lg text-sm text-steel-400 sm:text-base">
               Descreva o problema para a nossa equipe e receba um diagnóstico técnico.

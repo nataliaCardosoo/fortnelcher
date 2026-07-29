@@ -23,9 +23,9 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-radial-glow">
         <div className="container-page grid gap-12 py-16 sm:py-20 lg:grid-cols-[1.1fr,0.9fr] lg:items-center lg:py-28">
           <FadeIn>
-            <p className="eyebrow">Engenharia de docas de carga · Região Sudeste</p>
+            <p className="eyebrow">Engenharia de Niveladoras de docas de carga · Região Sudeste</p>
             <h1 className="section-heading mt-4">
-              Sua doca sempre <span className="text-brand-blue-light">no nível certo</span>.
+              Sua niveladora sempre <span className="text-brand-blue-light">no nível certo</span>.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-steel-300 sm:text-lg">
               {company.descricaoLonga}
@@ -50,17 +50,19 @@ export default function HomePage() {
             </div>
 
             <dl className="mt-12 grid grid-cols-3 gap-6 border-t border-navy-800 pt-8">
-              <div>
+              <div className="flex flex-col justify-center">
                 <dt className="eyebrow">Região</dt>
                 <dd className="mt-1 font-display text-lg font-semibold text-white">Sudeste</dd>
               </div>
-              <div>
+              <div className="flex flex-col justify-center">
                 <dt className="eyebrow">Atendimento</dt>
                 <dd className="mt-1 font-display text-lg font-semibold text-white">Seg–Sex</dd>
               </div>
-              <div>
+              <div className="flex flex-col justify-center">
                 <dt className="eyebrow">Especialidade</dt>
-                <dd className="mt-1 font-display text-lg font-semibold text-white">Niveladoras de Doca</dd>
+                <dd className="mt-1 font-display text-sm sm:text-lg font-semibold text-white whitespace-normal break-words">
+                  Niveladoras de Doca
+                </dd>
               </div>
             </dl>
           </FadeIn>
@@ -170,7 +172,7 @@ export default function HomePage() {
         <div className="container-page flex flex-col items-start justify-between gap-6 py-16 sm:flex-row sm:items-center">
           <div>
             <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">
-              Precisa de manutenção ou instalação na sua doca?
+              Precisa de manutenção ou instalação de niveladoras de docas na sua empresa?
             </h2>
             <p className="mt-2 max-w-lg text-sm text-steel-400 sm:text-base">
               Fale agora com a Fortnelcher e receba atendimento técnico especializado na Região Sudeste.
